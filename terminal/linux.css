@@ -1,0 +1,97 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 30%;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  width: 70%;
+  background-color: #111;
+}
+
+.dk1{
+  width: 90%;
+  height: 85%;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+   color: white;
+
+}
+.dk2{
+  width: 90%;
+  height: 85%;
+  background-color: grey;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  color: black;
+  font-size: 20px;
+   font-weight: bold;
+ font-family: monospace;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+.centered img {
+  width: 400px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+input{
+
+  font-size: 20px;
+  font-family: serif;
+  width: 80%; 
+}
+
+.button {
+  border-width: 5px;
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;}
+
+h3{
+  font-weight: bold;
+  font-size: 25px;
+  font-color: white;
+}
+.speech img 
+{float: right;
+  width: 30px }
+  .py{
+    width: 75%;
+  }
